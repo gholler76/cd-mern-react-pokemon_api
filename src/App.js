@@ -1,10 +1,10 @@
-import PokemonApi from "./PokemonApi";
+import PokemonAxios from './PokemonAxios';
 
 
 function App() {
   return (
     <div className="App">
-      <PokemonApi />
+      <PokemonAxios />
     </div>
   );
 }
